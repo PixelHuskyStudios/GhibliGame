@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = 15;
+            <string>if (x = 0 &amp;&amp; y = 0) {
+    alarm[0] = 15;
+}
 </string>
           </argument>
         </arguments>
@@ -48,18 +50,25 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (world = 0) {
+            <string>
+if (world = 0) {
     x = 0
     y = 372
+    //instance_create(x,y+sprite_height,obj_portal)
 } else if (world = 1) {
     x = 480
     y = 12
+    //instance_create(x+sprite_height,y,obj_portal)
+    //instance_create(x+(sprite_height*2),y,obj_portal)
 } else if (world = 2) {
     x = 1024
     y = 372
+    //instance_create(x,y+sprite_height,obj_portal)
 } else if (world = 3) {
     x = 480
     y = 756
+    //instance_create(x+sprite_height,y,obj_portal)
+    //instance_create(x+(sprite_height*2),y,obj_portal)
 }
 
 </string>
