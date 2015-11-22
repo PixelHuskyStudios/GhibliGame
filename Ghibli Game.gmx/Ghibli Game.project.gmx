@@ -6,11 +6,22 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_paperWall</sprite>
-    <sprite>sprites\spr_wallHortTown</sprite>
     <sprite>sprites\spr_portal</sprite>
+    <sprites name="grp_eren/mikasa">
+      <sprites name="mikasa">
+        <sprite>sprites\mikasa_back</sprite>
+        <sprite>sprites\mikasa_right</sprite>
+        <sprite>sprites\mikasa_neutral</sprite>
+        <sprite>sprites\mikasa_forward</sprite>
+      </sprites>
+      <sprites name="eren">
+        <sprite>sprites\eren_neutral</sprite>
+        <sprite>sprites\eren_forward</sprite>
+        <sprite>sprites\eren_right</sprite>
+        <sprite>sprites\eren_back</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_grass</background>
@@ -20,6 +31,9 @@
     <background>background\bkg_bricks</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\define_sprite.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_wall</object>
     <object>objects\obj_player</object>
