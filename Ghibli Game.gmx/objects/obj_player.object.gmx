@@ -43,7 +43,7 @@ sprite[k.down] = false;
 scale = 1;
 image_yscale = scale;
 image_xscale = scale;
-img_speed = 0.532
+img_speed = 0.2
 </string>
           </argument>
         </arguments>
