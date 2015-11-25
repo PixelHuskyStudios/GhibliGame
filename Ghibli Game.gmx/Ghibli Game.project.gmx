@@ -43,6 +43,8 @@
     <object>objects\obj_player</object>
     <object>objects\obj_portal</object>
     <object>objects\obj_portalSpawner</object>
+    <object>objects\obj_saphire</object>
+    <object>objects\obj_HUD</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_warpWorld</room>
