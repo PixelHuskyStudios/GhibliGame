@@ -1,10 +1,10 @@
 ///define_sprite()
-if (sprite_index = mikasa_neutral) {
+if (GENDER = 0) {
     x_axis = mikasa_right;
     down = mikasa_forward;
     up = mikasa_back;
     neutral = mikasa_neutral;
-} else if (sprite_index = eren_neutral) {
+} else if (GENDER = 1) {
     x_axis = eren_right;
     down = eren_forward;
     up = eren_back;    

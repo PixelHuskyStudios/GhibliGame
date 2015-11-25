@@ -8,6 +8,8 @@
   <sprites name="sprites">
     <sprite>sprites\spr_horttownwall</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\s_waterFeatureW</sprite>
+    <sprite>sprites\spr_waterFeature</sprite>
     <sprite>sprites\spr_logwall</sprite>
     <sprite>sprites\spr_portal</sprite>
     <sprites name="grp_eren/mikasa">
@@ -24,7 +26,7 @@
         <sprite>sprites\eren_back</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\spr_saphire</sprite>
+    <sprite>sprites\spr_sapphire</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_grass</background>
@@ -36,15 +38,20 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\define_sprite.gml</script>
+    <script>scripts\sapphire_gen.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_wall</object>
     <object>objects\obj_logwall</object>
     <object>objects\obj_player</object>
     <object>objects\obj_portal</object>
-    <object>objects\obj_portalSpawner</object>
-    <object>objects\obj_saphire</object>
-    <object>objects\obj_HUD</object>
+    <object>objects\portal_spawner</object>
+    <object>objects\obj_sapphire</object>
+    <object>objects\obj_hud</object>
+    <object>objects\player_spawner</object>
+    <object>objects\obj_wallSmall</object>
+    <object>objects\obj_waterSmall</object>
+    <object>objects\collision</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_warpWorld</room>
