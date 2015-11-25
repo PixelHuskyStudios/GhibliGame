@@ -6,7 +6,9 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\spr_horttownwall</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_logwall</sprite>
     <sprite>sprites\spr_portal</sprite>
     <sprites name="grp_eren/mikasa">
       <sprites name="mikasa">
@@ -22,6 +24,7 @@
         <sprite>sprites\eren_back</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_saphire</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_grass</background>
@@ -36,6 +39,7 @@
   </scripts>
   <objects name="objects">
     <object>objects\obj_wall</object>
+    <object>objects\obj_logwall</object>
     <object>objects\obj_player</object>
     <object>objects\obj_portal</object>
     <object>objects\obj_portalSpawner</object>
