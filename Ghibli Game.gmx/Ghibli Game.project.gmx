@@ -18,6 +18,8 @@
         <sprite>sprites\mikasa_right</sprite>
         <sprite>sprites\mikasa_neutral</sprite>
         <sprite>sprites\mikasa_forward</sprite>
+        <sprite>sprites\spr_mikasaAttackFoward</sprite>
+        <sprite>sprites\spr_shortSword</sprite>
       </sprites>
       <sprites name="eren">
         <sprite>sprites\eren_neutral</sprite>
