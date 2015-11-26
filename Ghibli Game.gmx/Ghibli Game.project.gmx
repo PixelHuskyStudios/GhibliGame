@@ -27,6 +27,7 @@
       </sprites>
     </sprites>
     <sprite>sprites\spr_sapphire</sprite>
+    <sprite>sprites\spr_longgrass</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_grass</background>
@@ -52,6 +53,7 @@
     <object>objects\obj_wallSmall</object>
     <object>objects\obj_waterSmall</object>
     <object>objects\collision</object>
+    <object>objects\obj_grass</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_warpWorld</room>
