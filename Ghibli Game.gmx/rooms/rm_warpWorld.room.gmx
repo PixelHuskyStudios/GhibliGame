@@ -22,6 +22,16 @@ enum k {
     right,
     up,
     down
+}
+enum VAL {
+    blue = 1,
+    green = 5,
+    red = 10,
+    pink = 20,
+    yellow = 50,
+    black = 100,
+    white = 200,
+    purple = 9999999999999999999999
 }</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
