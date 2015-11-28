@@ -42,6 +42,7 @@
   <scripts name="scripts">
     <script>scripts\define_sprite.gml</script>
     <script>scripts\sapphire_gen.gml</script>
+    <script>scripts\draw_shadow.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_wall</object>
