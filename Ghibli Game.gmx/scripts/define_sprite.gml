@@ -1,12 +1,12 @@
 ///define_sprite()
 if (GENDER = 0) {
-    x_axis = mikasa_right;
-    down = mikasa_forward;
-    up = mikasa_back;
-    neutral = mikasa_neutral;
+    x_axis = mage_right;
+    down = mage_down;
+    up = mage_up;
+    neutral = mage_down;
 } else if (GENDER = 1) {
     x_axis = eren_right;
-    down = eren_forward;
+    down = warrior_down;
     up = eren_back;    
     neutral = eren_neutral;
 }

@@ -12,24 +12,18 @@
     <sprite>sprites\spr_waterFeature</sprite>
     <sprite>sprites\spr_logwall</sprite>
     <sprite>sprites\spr_portal</sprite>
-    <sprites name="grp_eren/mikasa">
-      <sprites name="mikasa">
-        <sprite>sprites\mikasa_back</sprite>
-        <sprite>sprites\mikasa_right</sprite>
-        <sprite>sprites\mikasa_neutral</sprite>
-        <sprite>sprites\mikasa_forward</sprite>
-        <sprite>sprites\spr_mikasaAttackFoward</sprite>
-        <sprite>sprites\spr_shortSword</sprite>
-      </sprites>
-      <sprites name="eren">
-        <sprite>sprites\eren_neutral</sprite>
-        <sprite>sprites\eren_forward</sprite>
-        <sprite>sprites\eren_right</sprite>
-        <sprite>sprites\eren_back</sprite>
-      </sprites>
-    </sprites>
     <sprite>sprites\spr_sapphire</sprite>
     <sprite>sprites\spr_longgrass</sprite>
+    <sprites name="player_sprites">
+      <sprites name="grp_mage">
+        <sprite>sprites\mage_down</sprite>
+        <sprite>sprites\mage_right</sprite>
+        <sprite>sprites\mage_up</sprite>
+      </sprites>
+      <sprites name="grp_warrior">
+        <sprite>sprites\warrior_down</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_grass</background>
@@ -57,6 +51,7 @@
     <object>objects\obj_waterSmall</object>
     <object>objects\collision</object>
     <object>objects\obj_grass</object>
+    <object>objects\room_spd</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_warpWorld</room>

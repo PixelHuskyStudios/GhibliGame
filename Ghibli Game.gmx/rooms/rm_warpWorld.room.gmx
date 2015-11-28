@@ -6,12 +6,13 @@
   <vsnap>8</vsnap>
   <hsnap>16</hsnap>
   <isometric>0</isometric>
-  <speed>30</speed>
+  <speed>60</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>instance_create(0, 0, obj_hud);
 instance_create(0, 0, portal_spawner);
+instance_create(0, 0, room_spd);
 globalvar money;
 money = 0;
 
@@ -120,9 +121,7 @@ enum k {
     <instance objName="obj_wall" x="992" y="336" name="inst_7A18CE6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="960" y="336" name="inst_B462255E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1023" y="336" name="inst_3D326D62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="576" y="0" name="inst_7B1AE2C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="576" y="24" name="inst_E4406AEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="448" y="0" name="inst_E10D792B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="0" y="336" name="inst_8C281408" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="336" name="inst_744C6079" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="408" name="inst_8B1AC672" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

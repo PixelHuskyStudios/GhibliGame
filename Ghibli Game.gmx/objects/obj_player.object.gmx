@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>mikasa_forward</maskName>
+  <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -43,7 +43,7 @@ sprite[k.down] = false;
 scale = 1;
 image_yscale = scale;
 image_xscale = scale;
-img_speed = 0.2
+img_speed = 0.35
 sprite_index = neutral;
 </string>
           </argument>
