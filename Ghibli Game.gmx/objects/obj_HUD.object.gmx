@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(spr_sapphire,0,10,10)
+            <string>draw_sprite_ext(spr_sapphire,0,10,10,2,2,image_angle,image_blend,100)
 draw_text(20,2,money)
 
 </string>

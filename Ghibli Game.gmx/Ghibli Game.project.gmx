@@ -6,21 +6,22 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_horttownwall</sprite>
     <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\s_waterFeatureW</sprite>
-    <sprite>sprites\spr_waterFeature</sprite>
     <sprite>sprites\spr_logwall</sprite>
     <sprite>sprites\spr_portal</sprite>
     <sprite>sprites\spr_sapphire</sprite>
     <sprite>sprites\spr_longgrass</sprite>
     <sprites name="player_sprites">
       <sprites name="grp_mage">
+        <sprite>sprites\mage_up</sprite>
         <sprite>sprites\mage_down</sprite>
         <sprite>sprites\mage_right</sprite>
-        <sprite>sprites\mage_up</sprite>
+        <sprite>sprites\mage_neutral</sprite>
       </sprites>
       <sprites name="grp_warrior">
+        <sprite>sprites\warrior_up</sprite>
+        <sprite>sprites\warrior_neutral</sprite>
+        <sprite>sprites\warrior_right</sprite>
         <sprite>sprites\warrior_down</sprite>
       </sprites>
     </sprites>
@@ -48,13 +49,9 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_logwall</object>
     <object>objects\obj_player</object>
-    <object>objects\obj_portal</object>
-    <object>objects\portal_spawner</object>
     <object>objects\obj_sapphire</object>
     <object>objects\obj_hud</object>
     <object>objects\player_spawner</object>
-    <object>objects\obj_wallSmall</object>
-    <object>objects\obj_waterSmall</object>
     <object>objects\collision</object>
     <object>objects\obj_grass</object>
     <object>objects\room_spd</object>
@@ -64,10 +61,6 @@
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_warpWorld</room>
-    <room>rooms\rm_mononokeIronTown</room>
-    <room>rooms\rm_spirtedBathhouse</room>
-    <room>rooms\rm_arrietyHouse</room>
-    <room>rooms\rm_earthseaHorttown</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

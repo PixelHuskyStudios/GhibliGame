@@ -5,8 +5,8 @@ if (GENDER = 0) {
     up = mage_up;
     neutral = mage_down;
 } else if (GENDER = 1) {
-    x_axis = eren_right;
+    x_axis = warrior_right
     down = warrior_down;
-    up = eren_back;    
-    neutral = eren_neutral;
+    up = warrior_up;    
+    neutral = warrior_neutral;
 }
